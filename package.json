@@ -1,0 +1,28 @@
+{
+  "name": "cf-logs-processor",
+  "version": "0.0.1",
+  "dependencies": {
+    "aws-sdk": "^2.382.0",
+    "zlib": "^1.0.5"
+  },
+  "scripts": {
+    "test": "npm run lint && npm run test-ci",
+    "test-ci": "./node_modules/mocha/bin/mocha",
+    "lint": "./node_modules/.bin/eslint ./"
+  },
+  "devDependencies": {
+    "aws-sdk-mock": "^4.3.0",
+    "eslint": "^5.11.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.12.2",
+    "gulp": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-terser": "^1.1.7",
+    "mocha": "^5.2.0",
+    "sinon": "7.2.3"
+  },
+  "author": "mujtaba-h",
+  "license": "UNLICENSED"
+}
